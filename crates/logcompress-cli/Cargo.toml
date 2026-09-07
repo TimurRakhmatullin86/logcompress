@@ -12,6 +12,6 @@ name = "logcompress"
 path = "src/main.rs"
 
 [dependencies]
-logcompress = { path = "../logcompress" }
+logcompress = { version = "0.1.0", path = "../logcompress" }
 clap = { version = "4", features = ["derive"] }
 serde_json = "1"
