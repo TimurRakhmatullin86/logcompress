@@ -14,7 +14,7 @@ I built a tool that takes a natural language query and a log file, and returns o
 
 **Results on a 100k-line benchmark (50 hidden incidents):**
 
-- 100% recall (55/55 queries, 5 incident types)
+- 100% recall on synthetic benchmark (55/55 queries, 5 incident types, 50 hidden incidents)
 - < 250ms for 100k lines (parallel tokenization via rayon)
 - 100k input → typically 100-200 output lines
 

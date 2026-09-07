@@ -98,10 +98,10 @@ We tested against a 100k-line synthetic dataset with 50 hidden incidents (timeou
 
 ## Usage
 
-Install from source (crates.io publish coming):
+Install from crates.io:
 
 ```bash
-cargo install --git https://github.com/TimurRakhmatullin86/logcompress logcompress-cli
+cargo install logcompress-cli
 ```
 
 As a library:
@@ -122,4 +122,4 @@ println!("Found {} relevant lines out of {}",
 
 The code is MIT/Apache-2.0: [github.com/TimurRakhmatullin86/logcompress](https://github.com/TimurRakhmatullin86/logcompress)
 
-I'd love to hear what query patterns you'd need for your production logs. What edge cases would break this approach?
+What query patterns would you need for your production logs? What edge cases would break this?
