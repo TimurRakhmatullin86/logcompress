@@ -1,0 +1,6 @@
+/target
+*.swp
+*.swo
+.DS_Store
+testdata/benchmark/logs_100k.jsonl
+testdata/benchmark/generate

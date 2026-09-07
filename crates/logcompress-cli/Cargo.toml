@@ -1,0 +1,17 @@
+[package]
+name = "logcompress-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+description = "CLI for query-aware log compression. 100k lines → relevant ones."
+
+[[bin]]
+name = "logcompress"
+path = "src/main.rs"
+
+[dependencies]
+logcompress = { path = "../logcompress" }
+clap = { version = "4", features = ["derive"] }
+serde_json = "1"
