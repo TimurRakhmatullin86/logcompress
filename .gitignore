@@ -4,3 +4,14 @@
 .DS_Store
 testdata/benchmark/logs_100k.jsonl
 testdata/benchmark/generate
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
