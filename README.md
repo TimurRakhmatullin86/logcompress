@@ -1,6 +1,10 @@
 # logcompress
 
-Query-aware log compression for LLM context. Feed 100k log lines → get back only the relevant ones.
+[![Crates.io](https://img.shields.io/crates/v/logcompress)](https://crates.io/crates/logcompress)
+[![CI](https://github.com/TimurRakhmatullin86/logcompress/actions/workflows/ci.yml/badge.svg)](https://github.com/TimurRakhmatullin86/logcompress/actions)
+[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue)](LICENSE)
+
+**Query-aware log compression for LLM context.** Feed 100k log lines → get back only the relevant ones.
 
 ## The problem
 
